@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .text-shadow {
+    text-shadow: 1px 1px 1px #d1d5db;
+  }
+}
