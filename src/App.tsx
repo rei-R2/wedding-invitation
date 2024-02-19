@@ -1,6 +1,8 @@
 import HomePage from "./pages/home";
 import { ReactLenis } from "@studio-freight/react-lenis";
 import OurStory from "./pages/ourStory";
+import Itinerary from "./pages/itinerary";
+import Photos from "./pages/photos";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <div className="flex flex-col gap-y-40">
         <HomePage />
         <OurStory />
+        <Itinerary />
+        <Photos />
       </div>
     </ReactLenis>
   );
