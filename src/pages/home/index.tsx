@@ -28,10 +28,7 @@ export default function HomePage() {
   );
 
   return (
-    <div
-      ref={container}
-      className="h-fit w-full px-20 tracking-wide text-neutral-800"
-    >
+    <div ref={container} className="h-fit w-full px-20 tracking-wide">
       <div className="flex min-h-screen flex-wrap items-center">
         <div className="relative w-1/4">
           <p className="absolute -left-1/2 top-0 -rotate-90 text-nowrap text-2xl font-semibold text-neutral-300">
@@ -52,7 +49,7 @@ export default function HomePage() {
               <img
                 src="/img/home.jpg"
                 alt="img-perwedding"
-                className="animate-fadeInTopRight w-full shadow-md shadow-neutral-500"
+                className="w-full animate-fadeInTopRight shadow-md shadow-neutral-500"
               />
               <span className="absolute -bottom-4 right-0 block h-4 w-2/3 bg-neutral-50" />
             </div>

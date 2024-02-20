@@ -6,12 +6,12 @@ AOS.init();
 export default function Itinerary() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center">
-      <h1 className="mb-20 text-6xl">ITINEARAY</h1>
+      <h1 className="mb-16 text-6xl">ITINEARAY</h1>
       <p
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="50"
-        className="mb-5 font-sans text-2xl text-neutral-400"
+        className="mb-7 font-playfair text-3xl text-neutral-400"
       >
         June 21, 2024
       </p>
@@ -49,7 +49,7 @@ export default function Itinerary() {
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="50"
-        className="h-14 w-0.5 bg-neutral-500"
+        className="h-12 w-0.5 bg-neutral-500"
       />
       <h3
         data-aos="fade-up"

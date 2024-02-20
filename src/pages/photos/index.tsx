@@ -2,7 +2,10 @@ export default function Photos() {
   return (
     <div className="min-h-screen">
       <h3 className="mb-4 text-center font-allison text-8xl text-gold">our</h3>
-      <h1 className="mb-5 text-center text-7xl">PHOTOS</h1>
+      <h1 className="mb-4 text-center text-7xl">PHOTOS</h1>
+      <p className="mb-6 text-center font-playfair text-xl italic">
+        Our photo gallery
+      </p>
       <span className="mx-auto block h-20 w-0.5 bg-slate-500" />
       <div className="mt-6 flex w-full flex-wrap items-start justify-center">
         <div className="w-1/3 pe-5 ps-14">
